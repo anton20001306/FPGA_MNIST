@@ -1,0 +1,262 @@
+m255
+K4
+z2
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/hashika/Documents/My_FPGA_works/MNIST/hw/v1
+vargmax
+Z1 2rtl/bram_sp.sv|rtl/rom_sp.sv|rtl/mac_int8.sv|rtl/requantize.sv|rtl/conv_engine.sv|rtl/pool_engine.sv|rtl/fc_engine.sv|rtl/argmax.sv|rtl/cnn_top.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1774679419
+!i10b 1
+!s100 <RoLI_NCQecLEaf`[>N8?3
+IM6Uo41>94Q]D7QbLZQD4o1
+S1
+R0
+w1774679281
+8rtl/argmax.sv
+Frtl/argmax.sv
+!i122 1
+L0 17 92
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1774679419.000000
+!s107 rtl/cnn_top.sv|rtl/argmax.sv|rtl/fc_engine.sv|rtl/pool_engine.sv|rtl/conv_engine.sv|rtl/requantize.sv|rtl/mac_int8.sv|rtl/rom_sp.sv|rtl/bram_sp.sv|
+Z7 !s90 -sv|rtl/bram_sp.sv|rtl/rom_sp.sv|rtl/mac_int8.sv|rtl/requantize.sv|rtl/conv_engine.sv|rtl/pool_engine.sv|rtl/fc_engine.sv|rtl/argmax.sv|rtl/cnn_top.sv|
+!i113 0
+Z8 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+vbram_sp
+R1
+R2
+R3
+!i10b 1
+!s100 `9EdmBIiBDVmh0VnDFMme0
+I1PP1AVO16i103]cb[nXze3
+S1
+R0
+w1774679306
+8rtl/bram_sp.sv
+Frtl/bram_sp.sv
+!i122 1
+L0 10 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 rtl/cnn_top.sv|rtl/argmax.sv|rtl/fc_engine.sv|rtl/pool_engine.sv|rtl/conv_engine.sv|rtl/requantize.sv|rtl/mac_int8.sv|rtl/rom_sp.sv|rtl/bram_sp.sv|
+R7
+!i113 0
+R8
+R9
+Xcnn_pkg
+2rtl/cnn_pkg.sv
+R2
+R3
+!i10b 1
+!s100 ^KMW`GnkkL9GPiVz6;47>0
+IW0=TjCG5NfcfFS;>eD4M;0
+S1
+R0
+w1774679025
+8rtl/cnn_pkg.sv
+Frtl/cnn_pkg.sv
+!i122 0
+L0 11 0
+VW0=TjCG5NfcfFS;>eD4M;0
+R5
+r1
+!s85 0
+31
+R6
+!s107 rtl/cnn_pkg.sv|
+!s90 -sv|rtl/cnn_pkg.sv|
+!i113 0
+R8
+R9
+vcnn_top
+R1
+R2
+DXx4 work 7 cnn_pkg 0 22 W0=TjCG5NfcfFS;>eD4M;0
+R3
+!i10b 1
+!s100 eEM;jX7@g0Q]ECEjJe>H?1
+ITYb[X24FHYzX_C6i?9^IU1
+S1
+R0
+w1774679386
+8rtl/cnn_top.sv
+Frtl/cnn_top.sv
+!i122 1
+L0 18 404
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+vconv_engine
+R1
+R2
+R3
+!i10b 1
+!s100 1oCM[<>7_]LYnSGdN_9nL1
+IZFCUBcSjgQHfWT8P:Ead62
+S1
+R0
+w1774679169
+8rtl/conv_engine.sv
+Frtl/conv_engine.sv
+!i122 1
+L0 25 246
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+vfc_engine
+R1
+R2
+R3
+!i10b 1
+!s100 iR>lL:jl2Mhh=17zSCoc=0
+I@b9LjY9Igk`V7EI_PLhM60
+S1
+R0
+w1774679254
+8rtl/fc_engine.sv
+Frtl/fc_engine.sv
+!i122 1
+L0 17 191
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+vmac_int8
+R1
+R2
+R3
+!i10b 1
+!s100 C2og61Nz^Rj8VJiT7<6g_1
+IDfoXi7PPN>558c9kYAAK?1
+S1
+R0
+w1774679086
+8rtl/mac_int8.sv
+Frtl/mac_int8.sv
+!i122 1
+L0 16 13
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+vpool_engine
+R1
+R2
+R3
+!i10b 1
+!s100 CUOVUOAND^>SkJUGMl=l^3
+IEOCgl]i8gmBnPBej=9?<K0
+S1
+R0
+w1774679202
+8rtl/pool_engine.sv
+Frtl/pool_engine.sv
+!i122 1
+L0 22 154
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+vrequantize
+R1
+R2
+R3
+!i10b 1
+!s100 =I66fG<c`gML5UZKij5;;0
+IcGgI=>]kd6^mTbebhmh@e2
+S1
+R0
+w1774679122
+8rtl/requantize.sv
+Frtl/requantize.sv
+!i122 1
+L0 14 76
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9
+vrom_sp
+R1
+R2
+R3
+!i10b 1
+!s100 DT4gl@lMiH;_oWSaFVcK`2
+ICMK5H]5WkXgUg[En_MDXP1
+S1
+R0
+w1774679309
+8rtl/rom_sp.sv
+Frtl/rom_sp.sv
+!i122 1
+L0 11 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 0
+R8
+R9

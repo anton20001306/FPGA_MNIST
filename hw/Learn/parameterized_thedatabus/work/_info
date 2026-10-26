@@ -1,0 +1,374 @@
+m255
+K4
+z2
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/hashika/Documents/My_FPGA_works/MNIST/hw/Learn/parameterized_thedatabus
+vaccelerator
+Z1 2qadd.sv|qmult.sv|relu.sv|variable_shift_reg.sv|mac_manual.sv|max_reg.sv|input_mux.sv|comparator2.sv|control_logic2.sv|tanh_lut.sv|convolver.sv|pooler.sv|accelerator.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 DXx4 work 7 cnn_pkg 0 22 6ezPP=m1e?mdD:gamzPF92
+Z4 !s110 1774510585
+!i10b 1
+!s100 `@7<0D;j0AG8647aJbU_l3
+ICg`5B_6H[HXd@aGXCeU>I1
+S1
+R0
+w1774510545
+8accelerator.sv
+Faccelerator.sv
+!i122 1
+L0 11 101
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z7 !s108 1774510585.000000
+!s107 accelerator.sv|pooler.sv|convolver.sv|tanh_lut.sv|control_logic2.sv|comparator2.sv|input_mux.sv|max_reg.sv|mac_manual.sv|variable_shift_reg.sv|relu.sv|qmult.sv|qadd.sv|
+Z8 !s90 -sv|qadd.sv|qmult.sv|relu.sv|variable_shift_reg.sv|mac_manual.sv|max_reg.sv|input_mux.sv|comparator2.sv|control_logic2.sv|tanh_lut.sv|convolver.sv|pooler.sv|accelerator.sv|
+!i113 0
+Z9 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+Xcnn_pkg
+2cnn_pkg.sv
+R2
+R4
+!i10b 1
+!s100 @IC4YX<3egOEaM?a4:I?81
+I6ezPP=m1e?mdD:gamzPF92
+S1
+R0
+w1774510375
+8cnn_pkg.sv
+Fcnn_pkg.sv
+!i122 0
+L0 5 0
+V6ezPP=m1e?mdD:gamzPF92
+R6
+r1
+!s85 0
+31
+R7
+!s107 cnn_pkg.sv|
+!s90 -sv|cnn_pkg.sv|
+!i113 0
+R9
+R10
+vcomparator2
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 jPZ?Nzm^=z:G6@O[h]6AJ3
+I=N33OM=9lQAOd^V>D`R^B3
+S1
+R0
+w1774510428
+8comparator2.sv
+Fcomparator2.sv
+!i122 1
+L0 9 49
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 accelerator.sv|pooler.sv|convolver.sv|tanh_lut.sv|control_logic2.sv|comparator2.sv|input_mux.sv|max_reg.sv|mac_manual.sv|variable_shift_reg.sv|relu.sv|qmult.sv|qadd.sv|
+R8
+!i113 0
+R9
+R10
+vcontrol_logic2
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 BUVoUklY;6VBUQa[NU2Yn1
+I35;EYKA0W]foj[T6k4ibM0
+S1
+R0
+w1774510467
+8control_logic2.sv
+Fcontrol_logic2.sv
+!i122 1
+L0 20 121
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vconvolver
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 ?aWUSOPzCjZ;@QeEoQUOK3
+IAfBAj2?gK`OQ?dzI2bJLD3
+S1
+R0
+w1774510503
+8convolver.sv
+Fconvolver.sv
+!i122 1
+L0 15 160
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vinput_mux
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 igUAQ:OjlF2?02cjL8ISY2
+I<K1^D1JbMh=6=USGdem<90
+S1
+R0
+w1774510420
+8input_mux.sv
+Finput_mux.sv
+!i122 1
+L0 9 15
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vmac_manual
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 LEmUz^?8gcJDkeIJUZ;<c3
+I46OPiE0C;a@4`TRcQMV3U0
+S1
+R0
+w1774510411
+8mac_manual.sv
+Fmac_manual.sv
+!i122 1
+L0 11 42
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vmax_reg
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 JLog1fLNnEaEg;ZV_`hOa3
+II<EUnTa?[55iXZ0D_5To=1
+S1
+R0
+w1774510415
+8max_reg.sv
+Fmax_reg.sv
+!i122 1
+L0 5 25
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpooler
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 >5MoD4H9oCiiWQY<G@kLB1
+IHTmF=alJBF9^AgCfzGY;C0
+S1
+R0
+w1774510526
+8pooler.sv
+Fpooler.sv
+!i122 1
+L0 11 93
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vqadd
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 W9<;GFdB0`P7dS@DLm8[O3
+I_n6`0eM@44mU<H:1OVbg41
+S1
+R0
+w1774510391
+8qadd.sv
+Fqadd.sv
+!i122 1
+L0 8 14
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vqmult
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 :SoZhIA5CUJ9J9U<XB1UB2
+IkWR0j_HWNoRNCZFPRkA3Q2
+S1
+R0
+w1774510400
+8qmult.sv
+Fqmult.sv
+!i122 1
+L0 12 50
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vrelu
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 hdY_nKSG:nkZKR<o@N=WP1
+ISO1@NjiT4?c]`Bn:CR9an3
+S1
+R0
+w1774510404
+8relu.sv
+Frelu.sv
+!i122 1
+L0 8 12
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vtanh_lut
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 k=RLT0F:S07SmOJ?i<`SL0
+ImXXSM<[HoF8LUYiYnS==G1
+S1
+R0
+w1774510475
+8tanh_lut.sv
+Ftanh_lut.sv
+!i122 1
+L0 16 85
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vvariable_shift_reg
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 UJoFVlz[3z^AELSW0=>3d2
+I6@Zl7WoOG8PfnGSmCl7S>0
+S1
+R0
+w1774510405
+8variable_shift_reg.sv
+Fvariable_shift_reg.sv
+!i122 1
+L0 4 31
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10

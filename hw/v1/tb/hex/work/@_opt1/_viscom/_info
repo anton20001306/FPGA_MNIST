@@ -1,0 +1,5 @@
+__design_bin_path=/home/anton/FPGA_MNIST/MNIST/hw/v1/tb/hex
+incr_run_version=16384
+incr_partial_run_stats=0:0
+incr_no_change_stats=0:0
+opt_data_elab=/home/anton/FPGA_MNIST/MNIST/hw/v1/tb/hex/work/@_opt1

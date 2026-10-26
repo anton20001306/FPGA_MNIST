@@ -1,0 +1,324 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+!s12c _opt
+R0
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/hashika/Documents/My_FPGA_works/MNIST/hw/v1/tb/hex
+T_opt
+!s110 1774682015
+V[`<N>55fOgDhVKICIgnBN1
+Z2 04 10 4 work cnn_top_tb fast 0
+=1-900f0c1e2655-69c77f9f-979e4-3e7c
+R0
+Z3 !s12b OEM100
+Z4 !s124 OEM10U27 
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+R1
+T_opt1
+!i145 1
+!i144 0
+!s110 1791979683
+V:4B@j8QK]0ZUoZjiD:ISl1
+R2
+=1-9843fa471459-6acf70a3-28f3d-23a9d
+R0
+!s12f OEM100
+R3
+R4
+!s135 nogc
+R5
+R6
+n@_opt1
+OL;O;2025.2;82
+vargmax
+Z7 2../../rtl/bram_sp.sv|../../rtl/rom_sp.sv|../../rtl/mac_int8.sv|../../rtl/requantize.sv|../../rtl/conv_engine.sv|../../rtl/pool_engine.sv|../../rtl/fc_engine.sv|../../rtl/argmax.sv|../../rtl/cnn_top.sv
+Z8 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z9 !s110 1791979682
+!i10b 1
+!s100 <RoLI_NCQecLEaf`[>N8?3
+INh8@G=hdcU2<FlNTA8a1<0
+S1
+Z10 d/home/anton/FPGA_MNIST/MNIST/hw/v1/tb/hex
+w1774679281
+8../../rtl/argmax.sv
+F../../rtl/argmax.sv
+!i122 4
+L0 17 92
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z13 !s108 1791979682.000000
+Z14 !s107 ../../rtl/cnn_top.sv|../../rtl/argmax.sv|../../rtl/fc_engine.sv|../../rtl/pool_engine.sv|../../rtl/conv_engine.sv|../../rtl/requantize.sv|../../rtl/mac_int8.sv|../../rtl/rom_sp.sv|../../rtl/bram_sp.sv|
+Z15 !s90 -sv|../../rtl/bram_sp.sv|../../rtl/rom_sp.sv|../../rtl/mac_int8.sv|../../rtl/requantize.sv|../../rtl/conv_engine.sv|../../rtl/pool_engine.sv|../../rtl/fc_engine.sv|../../rtl/argmax.sv|../../rtl/cnn_top.sv|
+!i113 0
+Z16 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vbram_sp
+R7
+R8
+R9
+!i10b 1
+!s100 =@V^hZW]l2Nj98_GW17c@2
+I[ARDSk0ERXCCMC16g]f;U1
+S1
+R10
+w1774681238
+8../../rtl/bram_sp.sv
+F../../rtl/bram_sp.sv
+!i122 4
+L0 9 24
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+Xcnn_pkg
+2../../rtl/cnn_pkg.sv
+R8
+R9
+!i10b 1
+!s100 ^KMW`GnkkL9GPiVz6;47>0
+Ia^MIHM[?4NVc2JY^g;ABZ0
+S1
+R10
+w1791632480
+8../../rtl/cnn_pkg.sv
+F../../rtl/cnn_pkg.sv
+!i122 3
+L0 11 0
+Va^MIHM[?4NVc2JY^g;ABZ0
+R12
+r1
+!s85 0
+31
+R13
+!s107 ../../rtl/cnn_pkg.sv|
+!s90 -sv|../../rtl/cnn_pkg.sv|
+!i113 0
+R16
+R6
+vcnn_top
+R7
+R8
+Z17 DXx4 work 7 cnn_pkg 0 22 a^MIHM[?4NVc2JY^g;ABZ0
+R9
+!i10b 1
+!s100 eEM;jX7@g0Q]ECEjJe>H?1
+IbV=k0d=ITYeOg0oX1i?9X0
+S1
+R10
+w1774679386
+8../../rtl/cnn_top.sv
+F../../rtl/cnn_top.sv
+!i122 4
+L0 18 404
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+vcnn_top_tb
+2../../tb/cnn_top_tb.sv
+R8
+R17
+R9
+!i10b 1
+!s100 ;mQH>9TK^RB;3>K6O=9<e0
+IOgEY8ELPGjI?RbbL9ROVa3
+S1
+R10
+w1791979682
+8../../tb/cnn_top_tb.sv
+F../../tb/cnn_top_tb.sv
+Frequant_params.svh
+Fnum_test.svh
+!i122 5
+L0 20 169
+R11
+R12
+r1
+!s85 0
+31
+R13
+!s107 num_test.svh|requant_params.svh|../../tb/cnn_top_tb.sv|
+!s90 -sv|+incdir+.|../../tb/cnn_top_tb.sv|
+!i113 0
+R16
+!s92 -sv +incdir+. -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vconv_engine
+R7
+R8
+R9
+!i10b 1
+!s100 WjnUfoCboj`A_aK`gH2T_1
+ITIBV:;eQcmU@E?`YbP7fP1
+S1
+R10
+w1774681419
+8../../rtl/conv_engine.sv
+F../../rtl/conv_engine.sv
+!i122 4
+L0 25 246
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+vfc_engine
+R7
+R8
+R9
+!i10b 1
+!s100 iR>lL:jl2Mhh=17zSCoc=0
+I=WXjHPoo_UnAR3E=Rf=;20
+S1
+R10
+w1774679254
+8../../rtl/fc_engine.sv
+F../../rtl/fc_engine.sv
+!i122 4
+L0 17 191
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+vmac_int8
+R7
+R8
+R9
+!i10b 1
+!s100 C2og61Nz^Rj8VJiT7<6g_1
+ICHd<M3YjA;RZBGMk0bj0]3
+S1
+R10
+w1774679086
+8../../rtl/mac_int8.sv
+F../../rtl/mac_int8.sv
+!i122 4
+L0 16 13
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+vpool_engine
+R7
+R8
+R9
+!i10b 1
+!s100 CUOVUOAND^>SkJUGMl=l^3
+Ioa:7eMJMZelD;l3c@kL4:3
+S1
+R10
+w1774679202
+8../../rtl/pool_engine.sv
+F../../rtl/pool_engine.sv
+!i122 4
+L0 22 154
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+vrequantize
+R7
+R8
+R9
+!i10b 1
+!s100 =I66fG<c`gML5UZKij5;;0
+IU7ElJl4PlTnPHmMlUUG8F3
+S1
+R10
+w1774679122
+8../../rtl/requantize.sv
+F../../rtl/requantize.sv
+!i122 4
+L0 14 76
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+vrom_sp
+R7
+R8
+R9
+!i10b 1
+!s100 83E_4:CM?BPV2JBWob[<j1
+IZ39mf2^RRM;;_KRlK?KJD3
+S1
+R10
+w1774681349
+8../../rtl/rom_sp.sv
+F../../rtl/rom_sp.sv
+!i122 4
+L0 8 24
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
